@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
+            margin: 0;
+            padding: 0;
+        }
+
+        .contenedor {
+            max-width: 600px;
+            margin: 60px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .dato {
+            font-size: 20px;
+            margin: 15px 0;
+            color: #555;
+        }
+
+        .titulo {
+            font-weight: bold;
+            color: #222;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Perfil Personal</h1>
+
+        <div class="dato">
+            <span class="titulo">Nombre:</span>
+            Emily Dennisse Ruiz Hidalgo
+        </div>
+
+        <div class="dato">
+            <span class="titulo">Nacionalidad:</span>
+            Ecuatoriana
+        </div>
+
+        <div class="dato">
+            <span class="titulo">Edad:</span>
+            19 años
+        </div>
+
+        <div class="dato">
+            <span class="titulo">Ciudad:</span>
+            Milagro
+        </div>
+    </div>
+
+</body>
+</html>
